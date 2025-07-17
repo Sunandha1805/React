@@ -8,7 +8,7 @@ function Profile() {
         return <div className='text-red-500'>Please log in to see your profile.</div>;
     }
   return (
-    <div className='text-blue-700 font-bold'>
+    <div className='text-green-700 font-bold'>
       Welcome {user.username}
     </div>
   )
